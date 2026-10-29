@@ -29,8 +29,11 @@
 --font-sans: 'Red Hat Display', Arial, sans-serif;
 
 /* Font Size */
+--fs-xs: 0.75rem;           /* 12px */
+--fs-sm: 0.875rem;          /* 14px */
 --fs-base: 1rem;            /* 16px */
 --fs-md: 1.125rem;          /* 18px */
+--fs-lg: 2rem;              /* 32px */
 --fs-xl: 2.5rem;            /* 40px */
 --fs-2xl: 4rem;             /* 64px */
 
@@ -71,5 +74,6 @@
 
 --accent-dark: var(--custom-cyan-600);
 --accent-light: var(--custom-cyan-300); 
+--accent-opaque: hsl(192deg, 37%, 48%, 80%)
 }
 
