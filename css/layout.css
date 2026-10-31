@@ -1,1 +1,37 @@
+nav {
+  padding: var(--spacing-600) var(--spacing-1000) 0 var(--spacing-1000);
+  width: 100%;
 
+  & a img {
+    margin: 0 auto;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-600);
+  padding: var(--spacing-800) var(--spacing-400) var(--spacing-400);
+
+  .hero-text-content {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-300);
+    width: 19.0625rem;
+
+    & p {
+      text-align: center;
+    }
+  }
+
+  .hero-btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
+  }
+}

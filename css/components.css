@@ -1,1 +1,23 @@
+.button-blue {
+  background-color: var(--button-blue-bg);
 
+  & span {
+    color: var(--button-blue-text);
+  }
+
+  &:hover {
+    background-color: var(--button-blue-hover);
+  }
+}
+
+.button-purple {
+  background-color: var(--button-purple-bg);
+
+  & span {
+    color: var(--button-purple-text);
+  }
+
+  &:hover {
+    background-color: var(--button-purple-hover);
+  }
+}

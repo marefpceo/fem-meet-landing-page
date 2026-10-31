@@ -22,8 +22,8 @@
 --custom-purple-300: hsl(268deg, 100%, 86%);
 --custom-purple-600: hsl(268deg, 34%, 53%);
 
---custom-cyan-300: hsl(192deg, 90%, 77%);
---custom-cyan-600: hsl(192deg, 37%, 48%);
+--custom-cyan-300: hsl(192, 90%, 77%);
+--custom-cyan-600: hsl(192, 37%, 48%);
 
 /* Fonts */
 --font-sans: 'Red Hat Display', Arial, sans-serif;
@@ -56,6 +56,7 @@
 --spacing-300: 1.5rem;      /*  24px  */
 --spacing-400: 2rem;        /*  32px  */
 --spacing-500: 2.5rem;      /*  40px  */
+--spacing-600: 3rem;        /*  48px  */
 --spacing-700: 3.5rem;      /*  56px  */
 --spacing-800: 4rem;        /*  64px  */
 --spacing-900: 4.5rem;      /*  72px  */
@@ -74,6 +75,12 @@
 
 --accent-dark: var(--custom-cyan-600);
 --accent-light: var(--custom-cyan-300); 
---accent-opaque: hsl(192deg, 37%, 48%, 80%)
+--accent-opaque: hsl(192deg, 37%, 48%, 80%);
+
+--button-blue-bg: var(--custom-cyan-600);
+--button-blue-text: var(--custom-cyan-300);
+--button-blue-hover: hsl(192, 54%, 64%);
+--button-purple-bg: var(--custom-purple-600);
+--button-purple-hover: hsl(268, 55%, 71%);
 }
 

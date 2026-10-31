@@ -20,6 +20,10 @@
   }
 }
 
+html, body {
+  overflow-x: clip;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
 }
