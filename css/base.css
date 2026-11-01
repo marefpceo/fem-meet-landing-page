@@ -33,6 +33,10 @@ h2 {
 picture {
   width: 27.0625rem;
   overflow: hidden;
+
+  @media (min-width: 48rem) {
+    width: 51.25rem;
+  }
 }
 
 button {

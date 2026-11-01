@@ -22,17 +22,8 @@
   gap: var(--spacing-600);
   padding: var(--spacing-800) var(--spacing-400) var(--spacing-400);
 
-  .hero-text-content {
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-300);
-    width: 19.0625rem;
-
-    & p {
-      text-align: center;
-    }
+  @media (min-width: 48rem) {
+    padding: var(--spacing-800) var(--spacing-400);
   }
 }
 
