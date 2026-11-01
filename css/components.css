@@ -21,3 +21,30 @@
     background-color: var(--button-purple-hover);
   }
 }
+
+.image-collage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-200);
+
+  & img {
+    width: 9.21875rem;
+    height: 9rem;
+  }
+}
+
+.main-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-400);
+
+  text-align: center;
+
+  & .main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200);
+  }
+}

@@ -1,1 +1,9 @@
+.cyan-text {
+  color: var(--accent-dark);
 
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-black);
+  line-height: var(--line-1);
+  letter-spacing: var(--tracking-md);
+  
+}

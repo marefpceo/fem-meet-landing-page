@@ -47,7 +47,7 @@
 
 /* Letter spacing */
 --tracking-base: 0;         /*   0  */
---tracking-md: 0.25;        /*  4px */
+--tracking-md: 0.25rem;        /*  4px */
 
 /* Spacing */
 --spacing-050: 0.25rem;     /*  4px   */

@@ -51,6 +51,10 @@ button {
   color: var(--text-white);
 }
 
+img {
+  border-radius: var(--radius-sm);
+}
+
 footer {
   color: var(--custom-white);
   background-image: linear-gradient(var(--accent-opaque), var(--accent-opaque)),
