@@ -66,6 +66,7 @@
 /* Radius */
 --radius-sm: 0.5rem;        /*  8px  */
 --radius-xl: 1.8125rem;     /*  29px */
+--radius-full: 62.4375rem;  /*  999px */
 
 
 /* Theme variables */
@@ -82,5 +83,7 @@
 --button-blue-hover: hsl(192, 54%, 64%);
 --button-purple-bg: var(--custom-purple-600);
 --button-purple-hover: hsl(268, 55%, 71%);
+
+--line-fill: var(--custom-slate-300);
 }
 

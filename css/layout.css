@@ -1,4 +1,4 @@
-nav {
+.nav {
   padding: var(--spacing-600) var(--spacing-1000) 0 var(--spacing-1000);
   width: 100%;
 
@@ -33,5 +33,39 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-200);
+  }
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-800);
+
+  padding: var(--spacing-400) var(--spacing-400) var(--spacing-800);
+
+  .number-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vertical-line {
+    height: 5rem;
+    width: 0.0625rem;
+    background-color: var(--line-fill);
+  }
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--fw-black);
+    line-height: var(--line-5);
+
+    width: var(--spacing-700);
+    height: var(--spacing-700);
+
+    border: 0.0625rem solid var(--line-fill);
+    border-radius: var(--radius-full);
   }
 }
