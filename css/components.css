@@ -115,4 +115,13 @@
   padding: var(--spacing-800) var(--spacing-400);
 
   text-align: center;
+
+  @media (min-width: 48rem) {
+    background-image: linear-gradient(var(--accent-opaque), var(--accent-opaque)),
+                  url('../assets/images/tablet/image-footer.jpg');
+
+    & h2 + p {
+      width: 31.5rem;
+    }
+  }
 }
