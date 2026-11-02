@@ -96,6 +96,10 @@
     align-items: center;
     gap: var(--spacing-200);
   }
+
+  @media (min-width: 48rem) {
+    width: 31.5rem;
+  }
 }
 
 .footer-text-content {

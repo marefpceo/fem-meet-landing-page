@@ -34,6 +34,10 @@
   gap: var(--spacing-800);
 
   padding: var(--spacing-400) var(--spacing-400) var(--spacing-800);
+
+  @media (min-width: 48rem) {
+    padding: var(--spacing-700) var(--spacing-400) var(--spacing-800);
+  }
 }
 
 .footer-section {
