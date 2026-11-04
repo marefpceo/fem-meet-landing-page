@@ -30,15 +30,6 @@ h2 {
   text-align: center;
 }
 
-picture {
-  width: 27.0625rem;
-  overflow: hidden;
-
-  @media (min-width: 48rem) {
-    width: 51.25rem;
-  }
-}
-
 button {
   display: flex;
   gap: var(--spacing-050);

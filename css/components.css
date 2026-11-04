@@ -82,6 +82,14 @@
     width: 9.21875rem;
     height: 9rem;
   }
+
+  @media (min-width: 90rem) {
+    
+    & img {
+      width: 16rem;
+      height: 16rem;
+    }
+  }
 }
 
 .hero-text-content {
@@ -120,6 +128,10 @@
 
   @media (min-width: 48rem) {
     width: 31.5rem;
+  }
+
+  @media (min-width: 90rem) {
+    width: 34rem;
   }
 }
 

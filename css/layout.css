@@ -52,6 +52,11 @@
   @media (min-width: 48rem) {
     padding: var(--spacing-700) var(--spacing-400) var(--spacing-800);
   }
+
+  @media (min-width: 90rem) {
+    padding: var(--spacing-700) var(--spacing-1000) var(--spacing-900);
+    width: 90rem;
+  }
 }
 
 .footer-section {
