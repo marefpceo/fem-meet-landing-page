@@ -22,6 +22,27 @@
   }
 }
 
+.hero-tablet {
+  width: 27.0625rem;
+  overflow: hidden;
+
+  @media (min-width: 48rem) {
+    width: 51.25rem;
+  }
+
+  @media (min-width: 90rem) {
+    display: none;
+  }
+}
+
+.hero-desktop {
+  display: none;
+
+  @media (min-width: 90rem) {
+    display: block;
+  }
+}
+
 .number-div {
   display: flex;
   flex-direction: column;

@@ -25,6 +25,20 @@
   @media (min-width: 48rem) {
     padding: var(--spacing-800) var(--spacing-400);
   }
+
+  @media (min-width: 90rem) {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--spacing-400);
+    width: 90rem;
+
+    padding: var(--spacing-800) var(--spacing-1000);
+
+    background-image: url('../assets/images/desktop/image-hero-left.png'),
+                      url('../assets/images/desktop/image-hero-right.png');
+    background-repeat: no-repeat;
+    background-position:  -1.625rem, 66.9375rem;
+  }
 }
 
 .main-section {
