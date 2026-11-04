@@ -27,7 +27,6 @@ h2 {
   font-size: clamp(var(--fs-lg), calc(1.824rem + 0.751vw), var(--fs-xl));
   font-weight: var(--fw-black);
   line-height: var(--line-1);
-  /* text-align: center; */
 }
 
 button {
