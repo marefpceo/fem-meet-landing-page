@@ -11,11 +11,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -28,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Site screenshot](../meet-landing-page/assets/images/screenshot.png)
 
 
 ### Links
@@ -48,9 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-
-### Continued development
-
+The ***Meet Landing Page*** challenge gave me more practice with layering and overlapping elements. I have used background images with cover overlays before, but that was still a great refresher. The footer uses a different image for each viewport size. I opted to use `background-image` instead of the `<picture>` element. Doing so allows the cover overlay to be applied using CSS. Using the `<picture>` element would have required a separate `<div>` for the cover overlay. 
 
 ### Useful resources
 
@@ -63,5 +58,3 @@ Users should be able to:
 - Website - [Lamar S.](https://www.lamar-stevens.com)
 - Frontend Mentor - [@marefpceo](https://www.frontendmentor.io/profile/marefpceo)
 - Twitter - [@stevens14704](https://www.twitter.com/stevens14704)
-
-## Acknowledgments
