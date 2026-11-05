@@ -142,7 +142,6 @@
   gap: var(--spacing-300);
 
   text-align: center;
-  width: 70rem;
 
   @media (min-width: 48rem) {
 
@@ -156,6 +155,7 @@
     grid-template-columns: 27.8125rem 1fr 1fr;
     gap: var(--spacing-400);
     text-align: start;
+    width: 70rem;
 
     & h2 + p {
       width: 22.1875rem;
